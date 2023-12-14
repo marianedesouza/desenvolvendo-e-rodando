@@ -1,0 +1,25 @@
+import React from 'react';
+
+const MeuComponente = () => {
+  return (
+    <div>
+      <h1>Meu Novo Componente</h1>
+      <p>Este é um componente React personalizado.</p>
+    </div>
+  );
+};
+
+export default MeuComponente;
+import React from 'react';
+import MeuComponente from './MeuComponente';
+
+function App() {
+  return (
+    <div>
+      <h1>Meu Aplicativo React</h1>
+      <MeuComponente />
+    </div>
+  );
+}
+
+export default App;
